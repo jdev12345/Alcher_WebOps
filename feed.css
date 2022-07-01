@@ -1,0 +1,206 @@
+.top {
+    font-size: 30px;
+}
+
+.had1,
+.had2 {
+    display: inline-block;
+}
+
+.had2 {
+    color: rgb(233, 90, 8);
+}
+
+.bod {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+body {
+    font-style: arial;
+}
+
+.imgt {
+    height: 22px;
+}
+
+.left {
+    padding-left: 15%;
+    padding-top: 2%;
+}
+
+.feed {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px grey;
+    display: grid;
+    grid-column: 1fr;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+.feed1 {
+    width: 100%;
+    height: 300px
+}
+
+.feeddp {
+    height: 30px;
+    border-radius: 100%;
+    padding-left: 5px;
+
+}
+
+.feeddp,
+.dp,
+.fb,
+.fbl,
+.fbc,
+.fbr {
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+.like,
+.bookmark {
+    padding-left: 5px;
+    width: 40px;
+    vertical-align: middle;
+}
+
+.like:hover,
+.bookmark:hover {
+    cursor: pointer;
+}
+
+.bookmark,
+.fbr {
+    float: right;
+}
+
+.dp,
+.fbc {
+    padding-left: 10px;
+}
+
+.dp {
+    margin-top: 5px;
+}
+
+.right {
+
+    right: 15%;
+    width: 20%;
+    top: 10%;
+    position: fixed;
+    left: 60%;
+}
+
+.right1_a {
+    display: inline-flex;
+    color: white;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: linear-gradient(to right, rgba(228, 104, 32, 0.521), rgba(233, 90, 8, 0.897));
+    height: 25%;
+}
+
+.a1 {
+    font-size: 25px;
+    padding-top: 40px;
+    padding-left: 15px;
+}
+
+.a2 {
+    padding-top: 40px;
+    padding-left: 45%;
+}
+
+.b {
+    width: 25px;
+}
+
+.right1_b {
+    display: block;
+    padding-top: 15px;
+}
+
+.b1,
+.b2 {
+    display: inline-block;
+}
+
+.b1 {
+    width: 30%;
+    padding-left: 15px;
+}
+
+.b11 {
+    width: 10%;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.icon {
+    width: 70px;
+    border-radius: 100%;
+    vertical-align: bottom;
+}
+
+.icon1 {
+    width: 30px;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+.b21,
+.b22:hover {
+    cursor: pointer;
+}
+
+.icon1:hover {
+    cursor: pointer;
+}
+
+.b21,
+.b22 {
+    padding: 5px;
+    margin: 5px;
+}
+
+.right1_c {
+    padding: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.right1_c,
+.b21 {
+    color: dimgrey;
+}
+
+.b22 {
+    font-weight: bold;
+    font-size: large;
+}
+
+.right1 {
+    display: inline-block;
+    box-shadow: 0px 0px 5px rgb(169, 169, 169);
+    border-radius: 10px;
+    height: 500px;
+}
+
+.right2 {
+    display: block;
+    box-shadow: 0px 0px 5px rgb(169, 169, 169);
+    border-radius: 10px;
+    height: 45px;
+    margin-top: 30px;
+}
+
+.headd,
+.headder {
+    display: inline-block;
+}

@@ -1,0 +1,90 @@
+.top {
+    font-size: 30px;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 40px;
+}
+
+body {
+    font-family: arial;
+}
+
+.had1,
+.had2 {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.had2 {
+    color: rgb(233, 90, 8);
+}
+
+.imgt {
+    height: 22px;
+}
+
+.headd {
+    padding-left: 7%;
+    padding-right: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hl,
+.hr {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.hr {
+    text-align: end;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(162, 162, 162);
+}
+
+.dis {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.feed1 {
+    width: 100%;
+    height: 250px
+}
+
+.post {
+    margin-right: 10%;
+    margin-left: 10%;
+    box-shadow: 5px 5px 5px rgb(181, 181, 181);
+    margin-bottom: 40px;
+}
+
+.like {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 40px;
+    vertical-align: middle;
+}
+
+.like:hover {
+    cursor: pointer;
+}
+
+.fb,
+.fbl,
+.fbc,
+.fbr {
+    display: inline-block;
+}
+
+.fbl {
+    vertical-align: top;
+}
