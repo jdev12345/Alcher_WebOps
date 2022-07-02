@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Project Week 1</title>
+    <link rel="stylesheet" href="Task3.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body style="font-family:Arial;">
+    <div class="head">
+        <div class="title">
+            <p>Alcheringa WebOps</p>
+        </div>
+
+        <div class="search">
+            <p>
+                <center>
+                    <input type="text" name="fname" class="search_bar" placeholder="Search something here">
+                </center>
+            </p>
+        </div>
+        <div class="links">
+            <a href="" class="link1">Home</a>
+            <a href="" class="link2">About</a>
+            <a href="" class="link3">Contact</a>
+        </div>
+    </div>
+    <hr class="line">
+    <div class="bod">
+        <div class="heading">
+            <h1 class="hd1" id="btn1">Lorem Ipsum Dolor </h1>
+            <h1 class="hd2" id="btn2"> Lorem Ipsum</h1>
+        </div>
+        <div class="desc">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac eleifend sapien. In ac arcu nec diam
+                tincidunt cursus.
+                Pellentesque quis tortor sit amet erat condimentum molestie ut nec sapien.
+            </p>
+        </div>
+        <div class="buttons">
+            <center>
+                <button class="button1"  onclick="clicked1()">Button 1</button>
+                <button class="button2"  onclick="clicked2()">Button 2</button>
+            </center>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="text">
+            <p class="text1">
+                HTML Formatting:
+            </p>
+            <p class="text2">
+                <i>This is an italic text</i>
+            </p>
+            <p class="text3">
+                This text is <mark>highlighted</mark>
+            </p>
+            <p class="text4">
+                This is a <sub>subscript</sub> and a <sup>superscript</sup>
+            </p>
+            <p class="text5">
+                &quot;This is a quotatin&quot;
+            </p>
+            <del class="text6">
+                This is done using det tag
+            </del>
+            <h5>HTML Table</h5>
+            <table class="tb">
+                <tr>
+                    <th>Company</th>
+                    <th>Contact</th>
+                    <th>Country</th>
+                </tr>
+                <tr>
+                    <td>Alfreds Futterkiste</td>
+                    <td>Maria Anders</td>
+                    <td>Germany</td>
+                </tr>
+            </table>
+        </div>
+        <div class="middle">
+            <p class="iframe">HTML Iframes</p>
+            <iframe src="Week1_Resources.pdf" title=""></iframe>
+        </div>
+        <div>
+            <img src="wallpaperflare.com_wallpaper.jpg" alt="" class="pic">
+        </div>
+    </div>
+    <div class="link">
+        <center>
+            <a href="" class="links1">Facebook</a> |
+            <a href="" class="links2">Instagram</a> |
+            <a href="" class="links3">Youtube</a>
+        </center>
+    </div>
+    <script>
+        const btn1 = document.getElementById('btn1');
+        const btn2 = document.getElementById('btn2');
+        function clicked1() {
+            btn1.innerHTML = 'You\'ve clicked ';
+            btn2.innerHTML = 'button-1';
+        }
+        function clicked2() {
+            btn1.innerHTML = 'You\'ve clicked ';
+            btn2.innerHTML = 'button-2';
+        }
+    </script>
+</body>
+
+</html>
